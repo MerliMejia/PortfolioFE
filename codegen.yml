@@ -1,0 +1,9 @@
+overwrite: true
+schema: 'https://be.refworks.io/graphql/'
+documents: 'src/**/*.graphql'
+generates:
+  src/graphql/generated/graphql.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
