@@ -44,6 +44,10 @@ const PageLayout = ({ children }: PageLayoutProps) => {
             <Typography variant="body1">{matches ? 'Upwork' : 'Up'}</Typography>
           </Link>
           {matches && <Typography variant="body1">/</Typography>}
+          <Link href="/CV.pdf" className="hover:text-[#DCDCDC]">
+            <Typography variant="body1">CV</Typography>
+          </Link>
+          {matches && <Typography variant="body1">/</Typography>}
           <Link
             href="https://github.com/MerliMejia"
             className="hover:text-[#DCDCDC]"
