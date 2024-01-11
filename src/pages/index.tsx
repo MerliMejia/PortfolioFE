@@ -1,5 +1,6 @@
 import PageLayout from '@/components/PageLayout';
 import TechSlider from '@/components/TechSlider';
+import TextWithGradient from '@/components/TextWithGradient';
 import { Avatar, Typography } from '@mui/material';
 import Image from 'next/image';
 
@@ -19,20 +20,9 @@ const Home = () => {
         <Typography className="text-[#9A9A9A] my-4">
           Hi, I'm Merli 👋🏾
         </Typography>
-        <Typography
-          variant="h3"
-          className="text-[#9A9A9A] text-center max-w-xl"
-          style={{
-            background:
-              'linear-gradient(102.13deg, #E9E9E9 0%, #515151 100%) !important',
-            // @ts-ignore
-            '-webkit-background-clip': 'text !important',
-            // @ts-ignore
-            '-webkit-text-fill-color': 'transparent !important',
-          }}
-        >
+        <TextWithGradient variant="h3">
           Full-Stack Developer - Always eager to learn
-        </Typography>
+        </TextWithGradient>
       </div>
       <TechSlider />
     </PageLayout>
