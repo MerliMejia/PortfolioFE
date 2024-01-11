@@ -1,8 +1,8 @@
 import PageLayout from '@/components/PageLayout';
 import TechSlider from '@/components/TechSlider';
 import TextWithGradient from '@/components/TextWithGradient';
-import { Avatar, Typography } from '@mui/material';
-import Image from 'next/image';
+import { Avatar, Button, Typography } from '@mui/material';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -23,6 +23,14 @@ const Home = () => {
         <TextWithGradient variant="h3">
           Full-Stack Developer - Always eager to learn
         </TextWithGradient>
+        <Link
+          href="https://calendly.com/merlimejia/free-consultation"
+          target="_blank"
+        >
+          <Button color="secondary" variant="outlined" className="mt-4">
+            Get a Free Consultation
+          </Button>
+        </Link>
       </div>
       <TechSlider />
     </PageLayout>
