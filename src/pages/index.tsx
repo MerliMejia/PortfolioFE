@@ -1,9 +1,7 @@
+import PageLayout from '@/components/PageLayout';
+
 const Home = () => {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <PageLayout>Home</PageLayout>;
 };
 
 export default Home;
