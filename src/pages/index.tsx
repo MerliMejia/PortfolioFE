@@ -34,7 +34,7 @@ const Home = () => {
         </Link>
       </div>
       <TechSlider />
-      <div className="flex justify-center mb-16">
+      <div className="flex justify-center mb-28">
         <TextWithGradient variant="h4">
           8 Years of Experience in the Web/Mobile Development Industry
         </TextWithGradient>
