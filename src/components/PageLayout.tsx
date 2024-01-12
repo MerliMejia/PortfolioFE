@@ -93,10 +93,10 @@ const PageMenu = ({ matches, className, isTop = true }: PageMenuProps) => {
               'aria-labelledby': 'button',
             }}
           >
-            <Link href="#">
+            <Link href="https://github.com/MerliMejia/PortfolioFE">
               <MenuItem onClick={handleClose}>This Website</MenuItem>
             </Link>
-            <Link href="#">
+            <Link href="https://github.com/MerliMejia">
               <MenuItem onClick={handleClose}>Personal Github</MenuItem>
             </Link>
           </Menu>
