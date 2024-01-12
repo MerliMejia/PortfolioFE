@@ -1,40 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Merli Mejia Personal Portfolio Website
+
+Welcome to my personal portfolio website! This project was built with Next.js, React, TypeScript, Material-UI, Tailwind CSS, GraphQL, and Apollo Client. It showcases my skills, projects, and experiences.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Modern and responsive design.
+- Interactive UI elements powered by React and Material-UI.
+- GraphQL integration for efficient data fetching (Will be used in the future for fetching data from the BE).
+- TypeScript for enhanced code quality and maintainability.
+- Styling with the flexibility of Tailwind CSS.
+- Seamless navigation with Next.js.
+- Apollo Client for managing GraphQL data.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before you begin, ensure you have the following software installed on your machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js: [Download here](https://nodejs.org/)
+- Yarn (optional but recommended): [Install Yarn](https://yarnpkg.com/getting-started/install)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Clone the repository:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to the project directory:
 
-## Learn More
+   ```
+   cd portfolio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Run the development server:
 
-## Deploy on Vercel
+   ```bash
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application should now be running at http://localhost:3000.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project Structure
+
+The project follows a standard structure for Next.js applications. Here are some key directories:
+
+`src/pages`: Contains the main pages of the application.
+
+`src/components`: Reusable React components used throughout the project.
+
+`src/styles`: Stylesheets, including Tailwind CSS configurations.
+
+`src/graphql`: GraphQL queries and mutations.
+Feel free to explore other directories for additional details.
+
+### Technologies Used:
+
+`Next.js`
+`React`
+`TypeScript`
+`Material-UI`
+`Tailwind CSS`
+`GraphQL`
+`Apollo Client`
+
+License
+This project is licensed under the MIT License.
