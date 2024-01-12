@@ -11,14 +11,14 @@ const Home = () => {
       <div className="w-full flex flex-col items-center mt-20">
         <Avatar
           imgProps={{
-            className: 'object-contain grayscale-[80%]',
+            className: '!object-contain grayscale-[80%]',
           }}
           className="bg-[#111111] border-[#e5e7eb] border-[0.5px]"
           alt="Remy Sharp"
           src="/images/profile-pic.png"
           sx={{ width: 160, height: 160 }}
         />
-        <Typography className="text-[#9A9A9A] my-4">
+        <Typography className="text-[#9A9A9A] !my-4">
           Hi, I&apos;m Merli 👋🏾
         </Typography>
         <TextWithGradient variant="h3">
@@ -28,7 +28,7 @@ const Home = () => {
           href="https://calendly.com/merlimejia/free-consultation"
           target="_blank"
         >
-          <Button color="secondary" variant="outlined" className="mt-4">
+          <Button color="secondary" variant="outlined" className="!mt-4">
             Get a Free Consultation
           </Button>
         </Link>
