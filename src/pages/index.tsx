@@ -19,7 +19,7 @@ const Home = () => {
           sx={{ width: 160, height: 160 }}
         />
         <Typography className="text-[#9A9A9A] my-4">
-          Hi, I'm Merli 👋🏾
+          Hi, I&apos;m Merli 👋🏾
         </Typography>
         <TextWithGradient variant="h3">
           Full-Stack Developer - Always eager to learn
