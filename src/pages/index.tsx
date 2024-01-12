@@ -1,3 +1,4 @@
+import ExperiencesStepper from '@/components/ExperiencesStepper';
 import PageLayout from '@/components/PageLayout';
 import TechSlider from '@/components/TechSlider';
 import TextWithGradient from '@/components/TextWithGradient';
@@ -33,6 +34,12 @@ const Home = () => {
         </Link>
       </div>
       <TechSlider />
+      <div className="flex justify-center mb-16">
+        <TextWithGradient variant="h4">
+          8 Years of Experience in the Web/Mobile Development Industry
+        </TextWithGradient>
+      </div>
+      <ExperiencesStepper />
     </PageLayout>
   );
 };
