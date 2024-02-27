@@ -20,6 +20,7 @@
     "@mui/lab": "^5.0.0-alpha.153",
     "@mui/material": "^5.14.18",
     "@types/papaparse": "^5.3.14",
+    "@vercel/analytics": "^1.2.2",
     "formik": "^2.4.5",
     "formik-mui": "^5.0.0-alpha.0",
     "next": "14.0.3",

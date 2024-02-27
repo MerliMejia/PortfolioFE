@@ -1,5 +1,6 @@
 import ExperiencesStepper from '@/components/ExperiencesStepper';
 import PageLayout from '@/components/PageLayout';
+import ProjectTabs from '@/components/ProjectTabs';
 import TechSlider from '@/components/TechSlider';
 import TextWithGradient from '@/components/TextWithGradient';
 import { Avatar, Button, Typography } from '@mui/material';
@@ -40,6 +41,10 @@ const Home = () => {
         </TextWithGradient>
       </div>
       <ExperiencesStepper />
+      <div className="flex justify-center my-28">
+        <TextWithGradient variant="h4">Projects</TextWithGradient>
+      </div>
+      <ProjectTabs />
     </PageLayout>
   );
 };
