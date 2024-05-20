@@ -8,7 +8,7 @@ import { experiences } from '@/data';
 
 const ExperiencesStepper = () => {
   return (
-    <div className="text-[#8A8A8A] px-8">
+    <div className="text-[#8A8A8A] px-8 max-w-[1220px] mx-auto">
       {/* @ts-ignore */}
       <Stepper orientation="vertical">
         {experiences.map((experience) => (
@@ -24,7 +24,7 @@ const ExperiencesStepper = () => {
             </StepLabel>
             <StepContent>
               <Typography>{experience.description}</Typography>
-              <Typography>
+              <Typography className="text-white">
                 <strong>Tech:</strong>{' '}
                 <span className="italic">{experience.tech?.join(', ')}</span>
               </Typography>

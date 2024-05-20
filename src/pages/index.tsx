@@ -42,7 +42,7 @@ const Home = () => {
       </div>
       <ExperiencesStepper />
       <div className="flex justify-center my-28">
-        <TextWithGradient variant="h4">Projects</TextWithGradient>
+        <TextWithGradient variant="h4">Outstanding Projects</TextWithGradient>
       </div>
       <ProjectTabs />
     </PageLayout>
