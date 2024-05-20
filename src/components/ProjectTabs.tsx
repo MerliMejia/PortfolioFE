@@ -57,23 +57,23 @@ export default function ProjectTabs() {
           aria-label="basic tabs example"
         >
           <Tab
-            className="text-white text-lg"
+            className="!text-white text-lg"
             label="Frontend"
             {...a11yProps(0)}
           />
           <Tab
-            className="text-white text-lg"
+            className="!text-white text-lg"
             label="Mobile"
             {...a11yProps(1)}
           />
           <Tab
-            className="text-white text-lg"
+            className="!text-white text-lg"
             label="Full-Stack"
             {...a11yProps(2)}
           />
         </Tabs>
       </div>
-      <div className="w-full text-white max-w-[1220px] mx-auto">
+      <div className="w-full !text-white max-w-[1220px] mx-auto">
         <CustomTabPanel value={value} index={0}>
           <Typography variant="h5" className="my-10">
             Advanced Custom Dynamic Questionnaire
@@ -94,7 +94,7 @@ export default function ProjectTabs() {
             this using the generated JSON. I implemented all the SurveyJS
             elements in React.js, incorporating the client's design.
           </Typography>
-          <Typography className="text-white">
+          <Typography className="!text-white">
             <span className="text-[#8A8A8A]">Skills and deliverables:</span>{' '}
             <span className="italic">
               Next.js, React, JavaScript, Front-End Development , Full-Stack
@@ -104,7 +104,7 @@ export default function ProjectTabs() {
           <Typography variant="h6" className="mt-10">
             Demo
           </Typography>
-          <Typography className="text-white">
+          <Typography className="!text-white">
             Take a look at the following video showcasing one of the forms
             created using this technique.
           </Typography>
@@ -118,7 +118,7 @@ export default function ProjectTabs() {
           <Typography variant="h6" className="mt-10">
             Demo 2
           </Typography>
-          <Typography className="text-white">
+          <Typography className="!text-white">
             Here's another questionnaire made by me with this technique. This
             one is more advanced since it has custom cards, nested
             questionnaires, a room editor, and the ability to upload files.
@@ -130,7 +130,7 @@ export default function ProjectTabs() {
             <source src="/videos/warm-demo2.mov" />
             Your browser does not support the video tag.
           </video>
-          <Typography className="text-white mt-5">
+          <Typography className="!text-white mt-5">
             You can try the questionnaires here:
             <a href="https://warm0.de/selbst-vermessen">
               https://warm0.de/selbst-vermessen
