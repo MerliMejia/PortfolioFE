@@ -75,7 +75,7 @@ export default function ProjectTabs() {
       </div>
       <div className="w-full !text-white max-w-[1220px] mx-auto">
         <CustomTabPanel value={value} index={0}>
-          <Typography variant="h5" className="my-10">
+          <Typography variant="h5" className="!my-10">
             Advanced Custom Dynamic Questionnaire
           </Typography>
           <Typography variant="body1">
@@ -101,7 +101,7 @@ export default function ProjectTabs() {
               Development
             </span>
           </Typography>
-          <Typography variant="h6" className="mt-10">
+          <Typography variant="h6" className="!mt-10">
             Demo
           </Typography>
           <Typography className="!text-white">
@@ -110,12 +110,12 @@ export default function ProjectTabs() {
           </Typography>
           <video
             controls
-            className="w-full mt-10 border-[4.4px] border-[#ffffff]"
+            className="w-full !mt-10 border-[4.4px] border-[#ffffff]"
           >
             <source src="/videos/warm-demo1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <Typography variant="h6" className="mt-10">
+          <Typography variant="h6" className="!mt-10">
             Demo 2
           </Typography>
           <Typography className="!text-white">
@@ -125,7 +125,7 @@ export default function ProjectTabs() {
           </Typography>
           <video
             controls
-            className="w-full mt-10 border-[4.4px] border-[#ffffff]"
+            className="w-full !mt-10 border-[4.4px] border-[#ffffff]"
           >
             <source src="/videos/warm-demo2.mov" />
             Your browser does not support the video tag.
@@ -140,17 +140,17 @@ export default function ProjectTabs() {
               https://warm0.de/questionnaire
             </a>
           </Typography>
-          <Typography variant="h5" className="my-10">
+          <Typography variant="h5" className="!my-10">
             More coming up soon...
           </Typography>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          <Typography variant="h5" className="my-10">
+          <Typography variant="h5" className="!my-10">
             More coming up soon...
           </Typography>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          <Typography variant="h5" className="my-10">
+          <Typography variant="h5" className="!my-10">
             More coming up soon...
           </Typography>
         </CustomTabPanel>
